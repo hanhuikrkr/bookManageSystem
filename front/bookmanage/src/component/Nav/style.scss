@@ -1,0 +1,49 @@
+.g-nav-style {
+  margin: 0 auto;
+  width: 1200px;
+}
+.nav-search-popup-style {
+}
+
+.ant-cascader-menu {
+  height: 600px !important;
+}
+.search-footBtn-class {
+  cursor: pointer;
+  padding: 8px;
+  background-color: rgba(5, 133, 208, 1);
+  margin-top: 8px;
+  color: white;
+  font-size: large;
+  border-radius: 4px;
+  transition: 0.3s;
+  &:hover {
+    background-color: rgba(5, 133, 208, 0.3);
+  }
+}
+.search-footBtn-isbn {
+  cursor: pointer;
+  padding: 8px;
+  background-color: rgba(148, 7, 10, 1);
+  margin-top: 8px;
+  color: white;
+  font-size: large;
+  border-radius: 4px;
+  transition: 0.3s;
+  &:hover {
+    background-color: rgba(148, 7, 10, 0.3);
+  }
+}
+.nav-steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: #ffffff;
+  min-height: 50vh;
+  text-align: center;
+  
+}
+
+.nav-steps-action {
+  margin-top: 24px;
+}

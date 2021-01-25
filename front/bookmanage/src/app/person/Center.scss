@@ -1,0 +1,107 @@
+.g-person {
+  .avatarHolder {
+    margin-bottom: 24px;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+
+    & img {
+      width: 104px;
+      height: 104px;
+      margin-bottom: 20px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .name {
+      margin-bottom: 4px;
+
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+
+  .detail {
+    p {
+      position: relative;
+      margin-bottom: 8px;
+      padding-left: 26px;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+
+    i {
+      position: absolute;
+      top: 4px;
+      left: 0;
+      width: 14px;
+      height: 14px;
+    }
+  }
+
+  .tagsTitle,
+  .teamTitle {
+    margin-bottom: 12px;
+
+    font-weight: 500;
+  }
+
+  .tags {
+    :global {
+      .ant-tag {
+        margin-bottom: 8px;
+      }
+    }
+  }
+
+  .team {
+    :global {
+      .ant-avatar {
+        margin-right: 12px;
+      }
+    }
+
+    a {
+      display: block;
+      margin-bottom: 24px;
+      overflow: hidden;
+
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      word-break: break-all;
+      transition: color 0.3s;
+
+      &:hover {
+      }
+    }
+  }
+
+  .tabsCard {
+    :global {
+      .ant-card-head {
+        padding: 0 16px;
+      }
+    }
+  }
+  img {
+    width: 104px;
+    height: 104px;
+  }
+
+}
+.steps-content {
+  margin-top: 16px;
+  border: 1px dashed #e9e9e9;
+  border-radius: 2px;
+  background-color: #fafafa;
+  min-height: 50vh;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.steps-action {
+  margin-top: 24px;
+}

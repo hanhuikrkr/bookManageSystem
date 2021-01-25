@@ -1,0 +1,25 @@
+.head-atr{
+
+    width: 1100px;
+    margin: auto;
+    & > div{
+        height: 4vh;
+        float: right;
+        & > div{
+            color: white;
+        }
+    }
+  
+}
+.m-index-logo-box{
+    height: 3vh;
+    margin-top: 3vh;
+    float: left !important;
+    margin-bottom: 2vh;
+    .logo-hzsfdxtsg{
+        width: 32.5vh;
+        height: 6vh;
+        background-image: url(../../static/logo.png);
+        background-size:100% 100%;
+    }
+}

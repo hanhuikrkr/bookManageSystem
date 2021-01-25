@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HZNU图书管理系统</string>
+    <string name="action_settings">Settings</string>
+    <string name="tab_menu_alert">馆藏</string>
+    <string name="tab_menu_fun">个人</string>
+    <string name="tab_menu_pay">预约</string>
+    <string name="tab_menu_setting">借书</string>
+    <string name="tab_head_msg">杭州师范大学</string>
+</resources>

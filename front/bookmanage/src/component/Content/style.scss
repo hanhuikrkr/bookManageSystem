@@ -1,0 +1,8 @@
+.g-content-style-img {
+  &  img {
+    display: block;
+    width: 100% !important;
+    height: 100vh !important;
+    object-fit: cover;
+  }
+}
